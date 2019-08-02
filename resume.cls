@@ -65,11 +65,15 @@
   \section[#1]{#1 \hfill #2}%
 }
 \newcommand{\datedsubsection}[2]{%
-  \subsection[#1]{#1 \hfill #2}%
+  \subsection[#1]{#1 \hfill \textit{#2}}%  %% mymod
+}
+\newcommand{\bdatedsubsection}[2]{%				%% bullet dated xxx
+  \subsection[#1]{$\bullet$  #1 \hfill \textit{#2}}%  %% mymod
 }
 \newcommand{\datedline}[2]{%
-  {\par #1 \hfill #2 \par}%
+  {\par #1 \hfill \textit{#2} \par}%  %% mymod
 }
+
 
 \newcommand{\name}[1]{
   \centerline{\Huge\scshape{#1}}
@@ -84,10 +88,11 @@
 
 % defines one's email
 % usage: \email{<email>}
-\newcommand{\email}[1]{\faEnvelope\ \href{mailto:#1}{#1}}
+\newcommand{\email}[1]{\faEnvelopeO\ \href{mailto:#1}{#1}}
 % defines one's phone
 % usage: \phone{<phone>}
 \newcommand{\phone}[1]{\faPhone\ {#1}}
+\newcommand{\address}[1]{\faHome\ {#1}}
 % defines one's linkedin
 % usage: \linkedin{<linkedin>}
 \newcommand{\linkedin}[2][]{\faLinkedin\ 
@@ -113,7 +118,7 @@
 
 \newcommand{\basicInfo}[1]{
   \centerline{\sffamily\large{#1}}
-  \vspace{1.5ex}
+  \vspace{0.5ex}
 }
 
 \newcommand{\role}[2]{
