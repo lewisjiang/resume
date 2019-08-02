@@ -50,3 +50,10 @@ git clone https://github.com/billryan/resume.git --branch master --depth 1 --sin
 [The MIT License (MIT)](http://opensource.org/licenses/MIT)
 
 Copyrighted fonts are not subjected to this License.
+
+## My change log:
+### resume.cls:
+1. bulletin before datedsubsection
+1. italic style for dates and time periods
+1. /faEnvelop to /faEnvelopO
+1. font size of basicinfo
