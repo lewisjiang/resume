@@ -7,6 +7,7 @@ Original readme [here](https://github.com/billryan/resume)
 1. /faEnvelop to /faEnvelopO
 1. font size of basicinfo  
 ...  
+---
 Fine, in order to meet the [requirements](http://users.ece.utexas.edu/~bevans/resumeSuggestions.html) of Prof. Robert W. Heath Jr., I changed the .cls file quite radically, and many changes are not recorded. Just tailor the commands to suit your own needs.  
 
 Breif Glance at the Resume:  
