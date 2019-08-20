@@ -1,77 +1,134 @@
 % !TEX program = xelatex
 
 \documentclass{resume}
+
 %\usepackage{zh_CN-Adobefonts_external} % Simplified Chinese Support using external fonts (./fonts/zh_CN-Adobe/)
 %\usepackage{zh_CN-Adobefonts_internal} % Simplified Chinese Support using system fonts
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% Page number:
+%\usepackage{lastpage}
+%\usepackage{fancyhdr}
+%\pagestyle{fancy}
+%\renewcommand{\headrulewidth}{0pt}
+%\fancyhead{}
+%\cfoot{\thepage\ of \pageref{LastPage}}
+
 
 \begin{document}
 \pagenumbering{gobble} % suppress displaying page number
 
-\name{Bin Yuan}
+
+\name{Your name}
 
 \basicInfo{
-  \email{yuanbin2014@gmail.com} \textperiodcentered\ 
-  \phone{(+86) 131-221-87xxx} \textperiodcentered\ 
-  \linkedin[billryan8]{https://www.linkedin.com/in/billryan8}}
-
-\section{\faGraduationCap\ Education}
-\datedsubsection{\textbf{Shanghai Jiao Tong University (SJTU)}, Shanghai, China}{2013 -- Present}
-\textit{Master student} in Electronics Engineering (EE), expected March 2016
-\datedsubsection{\textbf{Xidian University}, Shaanxi, China}{2009 -- 2013}
-\textit{B.S.} in Electronics Engineering (EE)
-
-\section{\faUsers\ Experience}
-\datedsubsection{\textbf{FLAG Inc.} California, America}{2012 -- Present}
-\role{Summer Intern}{Manager: xxx}
-Brief introduction: xxx.
+  \email{yourname@gmail.com} \textperiodcentered\ 
+  \phone{(+999) 12345678} \textperiodcentered\ 
+  \linkedin{YourLinkedin}\textperiodcentered\ 
+  \github{YourGithub}
+  }
+\basicInfo{
+  \address{This, is, your, address}\textperiodcentered\ 
+  \homepage{www.xx.site}
+  }
+\section{ Education}
+\subsectionnoit{\textbf{Southeast University (SEU)}}{Nanjing, China}
+\datedline{\textit{B.E.} in Information Engineering}{Jun, 2019}
 \begin{itemize}
-  \item Implemented xxx feature
+\item Overall GPA: 1.23/4.00 (45.67/100.00)
+\item Outstanding Graduate of Southeast University (top 5\%)
+\end{itemize}
+
+%\begin{tabular}{l l l l l}
+% & C\# & T-SQL & Javascript & HTML \\
+% & XML & JSON & SOAP & REST
+%\end{tabular}
+
+\section{ Projects}
+
+\bdatedsubsection{\textbf{For this project}}{Mar -- May, 2019}
+\begin{itemize}[label={-}]
+  \item Implemented xxx feature, in Electronics Engineering.
   \item Optimized xxx 5\%
   \item xxx
 \end{itemize}
 
-\datedsubsection{\textbf{xxx Projects}}{Jan. 2015 -- Present}
-\role{C, Python, Django, Linux}{Individual Projects, collaborated with xxx}
-Brief introduction: xxx
-\begin{itemize}
-  \item Implemented xxx feature
-  \item Optimized xxx 5\%
-  \item xxx
+\bdatedsubsection{\textbf{Resumes from undergraduate students }}{Sep -- Oct, 2018}
+\begin{itemize}[label={-}]
+  \item It is to your benefit to include a resume in a universal format (ASCII, PDF) whenever you contact a professor. 
+  \item Many professors will not open Word attachments. 
+  \item It is also to your benefit to include a copy of your resume in your application for graduate study. 
+  \item Resumes from undergraduate students or recent BS graduates should be no longer than one page when formatted using an 11-pt font. 
 \end{itemize}
 
-\datedsubsection{\textbf{\LaTeX\ résumé template}}{May. 2015 -- Present}
-\role{\LaTeX, Maintainer}{Individual Projects}
-An elegant \LaTeX\ résumé template, https://github.com/billryan/resume
-\begin{itemize}
-  \item Easy to be further customized or extended
-  \item Full support for unicode characters (e.g. CJK) with \XeLaTeX\
-  \item FontAwesome 4.5.0 support
+
+\bdatedsubsection{\textbf{For people with archived publications }}{Mar -- Apr, 2018}
+\begin{itemize}[label={-}]
+  \item resumes should be limited to two pages when using an 11-pt font.
+  \item and/or significant full-time work experience
 \end{itemize}
 
-% Reference Test
-%\datedsubsection{\textbf{Paper Title\cite{zaharia2012resilient}}}{May. 2015}
-%An xxx optimized for xxx\cite{verma2015large}
-%\begin{itemize}
-%  \item main contribution
+\bdatedsubsection{\textbf{The resume should include the following information}}{Sep -- Nov, 2017}
+\begin{itemize}[label={-}]
+  \item Educational information: For each degree received or currently enrolled in
+  \item please give the degree, institution name, institution city, institute state/province, and date (or expected date) of graduation
+  \item List electives that you've taken, you're taking this semester, and you're planning to take next semester. 
+\end{itemize}
+
+\bdatedsubsection{\textbf{Name, mailing address, phone, and e-mail address}}{Mar -- Oct, 2016}
+\begin{itemize}[label={-}]
+  \item Educational information: For each degree received or currently enrolled in
+  \item please give the degree, institution name, institution city, institute state/province, and date (or expected date)
+  \item List electives that you've taken, you're taking this semester, and you're planning to take next semester. 
+\end{itemize}
+
+
+
+
+
+\section{ Experience}
+\subsectionnoit{\textbf{AA BB Innovation}}{Shenzhen, China}
+\role{Research Intern} {} {Feb -- Mar, 2019}
+\begin{itemize}
+  \item Work experience: include the company's name and a 1-2 sentence description of your duties.
+  \item Projects: describe projects you've completed (through coursework, extra-curricular activities, and personal efforts)
+  \item what your contributions were, and give pointers to project Web sites and/or software releases.
+\end{itemize}
+
+\subsectionnoit{\textbf{AA BB Instruments}}{YYY, XXX}
+\role{Research Intern} {} {Feb -- Mar, 2019}
+\begin{itemize}
+  \item Work experience: include the company's name and a 1-2 sentence description of your duties.
+  \item Projects: describe projects you've completed (through coursework, extra-curricular activities, and personal efforts)
+  \item what your contributions were, and give pointers to project Web sites and/or software releases.
+\end{itemize}
+
+
+\section{ Honors and Awards}
+\datedline{Outstanding Bachelor Thesis of Southeast University (top 250\%)}{Jun, 2019}
+\datedline{XXX Electric Scholorship}{Apr, 2019}
+\datedline{\textit{\nth{1} Place}, XX Contest of Southeast University}{Oct, 2018}
+\datedline{\textit{\nth{1} Prize}, XX Contest for Undergraduates}{Oct, 2017}
+\datedline{\textit{\nth{1} Prize}, XXX Contest of China}{Jun, 2017}
+\datedline{YYY Scholorship}{Nov, 2016}
+\datedline{\textit{\nth{2} Prize}, AAA Sjkas Competition}{Oct, 2016}
+\datedline{National Scholorship (top 100\%)}{Oct, 2016}
+
+\section{ Skills}
+\begin{itemize}[parsep=0.1ex]
+  \item Programming Languages: Python, C/C++, Matlab, C\#, Perl, Java, VHDL
+  \item Software and platforms: ROS, OpenCV, PyTorch, TensorFlow
+  \item Languages: English - Fluent (TOEFL 121), Mandarin - Native speaker
+
+\end{itemize}
+
+
+%\section{ Miscellaneous}
+%\begin{itemize}[parsep=0.5ex]
+%  \item Blog: http://your.blog.me
+%  \item GitHub: https://github.com/aaa
+%  \item Sports: cycling, swimming
 %\end{itemize}
-
-\section{\faCogs\ Skills}
-\begin{itemize}[parsep=0.5ex]
-  \item Programming Languages: C == Python > C++ > Java
-  \item Platform: Linux
-  \item Development: Web, xxx
-\end{itemize}
-
-\section{\faHeartO\ Honors and Awards}
-\datedline{\textit{\nth{1} Prize}, Award on xxx }{Jun. 2013}
-\datedline{Other awards}{2015}
-
-\section{\faInfo\ Miscellaneous}
-\begin{itemize}[parsep=0.5ex]
-  \item Blog: http://your.blog.me
-  \item GitHub: https://github.com/username
-  \item Languages: English - Fluent, Mandarin - Native speaker
-\end{itemize}
 
 %% Reference
 %\newpage
