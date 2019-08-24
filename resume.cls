@@ -1,6 +1,6 @@
 \NeedsTeXFormat{LaTeX2e}
 \ProvidesClass{resume}[2015/05/25 An elegant Résumé class]
-\LoadClass[10pt]{article}
+\LoadClass[11pt]{article}
 
 % disable indent globally
 \setlength{\parindent}{0pt}
@@ -43,8 +43,8 @@
 \RequirePackage{enumitem}
 \setlist{noitemsep} % removes spacing from items but leaves space around the whole list
 %\setlist{nosep} % removes all vertical spacing within and around the list
-\setlist[itemize]{topsep=0.125em, leftmargin=1.5pc}
-\setlist[enumerate]{topsep=0.125em, leftmargin=1.5pc}
+\setlist[itemize]{topsep=0.125em, leftmargin=1.5pc, noitemsep, nolistsep}
+\setlist[enumerate]{topsep=0.125em, leftmargin=1.5pc, noitemsep, nolistsep}
 \RequirePackage[super]{nth}
 
 \titleformat{\section}         % Customise the \section command 
